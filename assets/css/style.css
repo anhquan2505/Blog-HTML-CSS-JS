@@ -517,7 +517,16 @@ body.nav-active { overflow: hidden; }
 }
 
 .topic-card .card-content { margin-block-end: 15px; }
-
+.card-content{
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+.posts-for-popular{
+  height: fit-content;
+}
 .topic-card .card-text {
   color: var(--text-wild-blue-yonder);
   font-size: var(--fontSize-6);
